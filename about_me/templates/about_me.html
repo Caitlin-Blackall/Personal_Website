@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_content %}
+<div class="col-md-8 offset-md-2">
+    <h1>About Me</h1>
+  <hr>
+    <div class="row">
+        <div class="col-md-8">
+            <img src="{% static project.image %}" alt="" width="100%">
+        </div>
+        <div class="col-md-4">
+            <h5>Description ?do I need subheadings</h5>
+            <p>{{ profile.description }}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
