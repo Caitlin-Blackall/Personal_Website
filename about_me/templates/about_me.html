@@ -8,7 +8,7 @@
 <div class="row">
 {% for prof in profile %}
     <div class="col-md-4">
-        <img src="{% static prof.image %}" alt="my_pic" width="100%">
+        <img src="{{ prof.image.url }}" alt="my_pic" width="100%">
     </div>
     <div class="col-md-8">
         <h5>{{ prof.title }}</h5>
