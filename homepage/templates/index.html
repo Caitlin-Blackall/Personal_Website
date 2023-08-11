@@ -1,10 +1,17 @@
 {% extends "base.html" %}
+{% load bootstrap_icons %}
 {% block page_content %}
+<blockquote></blockquote>
 <blockquote class="blockquote text-center">
-    <h1 ><strong>Welcome to Caitlin's Website</strong></h1>
+    <h1 style="color: #0D47A1; font-size:80px;"><strong>Welcome to Caitlin's Website!</strong></h1>
 </blockquote>
+<hr>
 <div class="text-center">
-    <h2>- Currently under construction -</h2>
-    <p><em>Check back soon for updates</em></p>
+    <p style="font-size: 25px;">A Django App designed to showcase my
+        <u><a style="color: black;" href="{% url 'project_index' %}">coding projects</a></u>,
+        record my
+        <u><a style="color: black; " href="{% url 'blog_index' %}">coding journey</a></u>
+        and help you get to know more
+        <u><a style="color: black;" href="{% url 'about_me' %}">about me</a></u>!</p>
 </div>
 {% endblock %}

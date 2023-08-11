@@ -76,6 +76,10 @@ to create models and manage these within a relational database. Within
 each app, `models.py` was used to store the models required and data was 
 subsequently entered and managed using [Django Admin](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/).
 
+One of my sections also includes a lambda function through AWS.
+Although this is not necessary for my website, it was another 
+way for me to demonstrate skills that I have developed.
+
 ## Learning
 ### New Skills
 
@@ -94,9 +98,14 @@ use and similar enough to CSS. It was a more flexible design
 process which was handy and I could make page layouts quickly 
 and easily.
 
+**3. Creating a lambda function using AWS**
+
+I created a very basic function to get used to using 
+cloud services.
+
 ## Future Work
-The ultimate aim is to deploy this app in the cloud. I am currently 
-learning about deploying on AWS so am planning to be able to deploy 
-this website soon.
+The ultimate aim is to deploy this app in the cloud. I used 
+AWS to create a basic lambda function and am currently expanding 
+on those skills to be able to deploy this website soon.
 
 ## Conclusion
