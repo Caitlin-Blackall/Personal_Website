@@ -6,3 +6,4 @@ class Project(models.Model):
     description = models.TextField()
     technology = models.CharField(max_length=50)
     image = models.ImageField(upload_to='projects/img')
+    link = models.CharField(max_length=50, default='')

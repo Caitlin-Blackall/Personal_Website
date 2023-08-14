@@ -16,6 +16,9 @@
         <br>
         <h5 class="text-right">Technology used:</h5>
         <p class="text-right">{{ project.technology }}</p>
+        <br>
+        <h5 class="text-right">Check it out on GitHub:</h5>
+        <p class="text-right">{{ project.link | urlize }}</p>
     </div>
 </div>
 {% endblock %}

@@ -68,7 +68,8 @@ creating a `base.html` file containing the navigation bar. The file
 was then extended upon for each of the different web pages. I also 
 used ```{{ value | linebreaksbr }}``` to ensure text was 
 displayed in paragraphs for the blog detail, project detail
-and 'About Me' sections.
+and 'About Me' sections. I also used ```{{ value | urlize }}``` 
+to allow hyperlinking between sections of the website.
 
 Media elements are saved in a `static` directory which allows them 
 to be uploaded through [Django Admin](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
