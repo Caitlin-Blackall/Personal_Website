@@ -2,16 +2,22 @@
 {% load static %}
 
 {% block page_content %}
+
 <br>
 <div class="col-md-10 offset-md-1">
     <h1>Works in Progress</h1>
     <hr>
     <div class="col-md-10 offset-md-1">
-        <h2>AWS Lambda</h2>
-        <p>I am currently working on using AWS with the ultimate aim of deploying this website.
-            To start this process, I created a basic lambda function using AWS.
-            This function will tell you the current date.</p>
-        <p><a target="_blank" rel="noopener noreferrer" href="https://7sks7j7nxqjios27zjygwpv3ka0ahwng.lambda-url.eu-north-1.on.aws/">Click here</a> to check it out!</p>
+        {% for work in posts %}
+            <h2>{{ work.title }}</h2>
+            <small>
+                Created on: {{ work.created_on.date }} |&nbsp;
+                Updated on:&nbsp;{{ work.last_modified.date }}
+            </small>
+            <p>{{ work.body | linebreaksbr | urlize }}</p>
+            <br>
+            <br>
+        {% endfor %}
     </div>
 </div>
 {% endblock %}
