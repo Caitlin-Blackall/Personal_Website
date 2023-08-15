@@ -2,5 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.aws, name='aws'),
+    path('', views.in_progress, name='in_progress'),
 ]

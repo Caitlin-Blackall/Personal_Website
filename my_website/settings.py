@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'projects',
     'blog',
     'about_me',
-    'aws',
+    'in_progress',
 ]
 
 MIDDLEWARE = [

@@ -26,7 +26,7 @@ urlpatterns = [
     path('projects/', include('projects.urls')),
     path('blog/', include('blog.urls')),
     path('about_me/', include('about_me.urls')),
-    path('aws/', include('aws.urls')),
+    path('in_progress/', include('in_progress.urls')),
 ]
 
 if settings.DEBUG:
