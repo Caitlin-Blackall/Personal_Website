@@ -1,6 +1,6 @@
 # Personal Website
 
-*IN PROGRESS - August 2023*
+*Completed August 2023*
 
 ## Project Overview
 To create a personal website to display my projects and also 
@@ -104,8 +104,9 @@ and easily.
 
 **3. Creating a lambda function using AWS**
 
-I created a very basic function to get used to using 
-cloud services.
+I created a very basic function to get more comfortable using 
+cloud services. This was interesting to complete and something 
+that I am planning to work further on in future.
 
 ## Future Work
 The ultimate aim is to deploy this app in the cloud. I used 
@@ -113,3 +114,12 @@ AWS to create a basic lambda function and am currently expanding
 on those skills to be able to deploy this website soon.
 
 ## Conclusion
+Overall, I really enjoyed completing this project. Django was 
+a great tool to use for this website and I liked being able 
+to keep code for each page in separate apps. It was also nice 
+to start to explore using AWS and this is definitely something 
+that I am going to explore further. This website is also a 
+great place for me to keep track of my projects and the work 
+that I am doing, as well as use the blog to track my learning. 
+I hope to be able to deploy the website soon, so more people 
+will be able to follow my coding journey!
